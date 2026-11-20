@@ -10,6 +10,16 @@ Personal portfolio fork of [the original team repository](https://github.com/swe
 
 SoundWatch collects browser-microphone readings, stores them in MongoDB and labels them **silent / quiet / normal / loud / very loud**. Users inspect the latest reading and historical measurements in a Flask dashboard. A separate Python worker classifies new records.
 
+## Animated walkthrough
+
+Inspect a reading → watch values and labels change → view the recent trend → inspect history.
+
+![SoundWatch live readings and history](docs/media/soundwatch-workflow.gif)
+
+Captured from the actual UI with synthetic readings and preassigned demo labels in an isolated in-memory database. No microphone audio is recorded. This demonstrates the API/dashboard workflow, not classifier accuracy or calibrated sound measurements.
+
+[Recreate the animation](docs/DEMO.md). Playback timing is edited for readability.
+
 ## See the application
 
 ![SoundWatch dashboard running locally with synthetic demonstration measurements](docs/media/dashboard.png)
