@@ -1,5 +1,7 @@
 # SoundWatch — Ambient Audio Monitoring
 
+Personal portfolio fork of [the original team repository](https://github.com/swe-students-fall2025/4-containers-primebyte). Team authorship and course history are preserved. CI badges below report the original team repository; deployment in this fork requires separate configuration.
+
 **A three-service application for microphone sampling, five-level loudness classification and a live/history dashboard.**
 
 ![Lint](https://github.com/swe-students-fall2025/4-containers-primebyte/actions/workflows/lint.yml/badge.svg)
@@ -45,8 +47,8 @@ The team built the overall system. **Yuxuan / Esther Feng** connected current-re
 Prerequisite: Docker Desktop or Docker Engine with the Compose plugin.
 
 ```bash
-git clone https://github.com/swe-students-fall2025/4-containers-primebyte.git
-cd 4-containers-primebyte
+git clone https://github.com/yf2685-beep/soundwatch-noise-monitor.git
+cd soundwatch-noise-monitor
 cp .env.example .env
 docker compose up --build
 ```
